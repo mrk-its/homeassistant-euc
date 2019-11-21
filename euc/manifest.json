@@ -1,0 +1,9 @@
+{
+  "domain": "euc",
+  "name": "EUC",
+  "documentation": "https://www.home-assistant.io/components/hue",
+  "dependencies": [],
+  "codeowners": ["@mrk"],
+  "requirements": ["euc.kingsong"],
+  "config_flow": true
+}

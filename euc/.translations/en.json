@@ -1,0 +1,18 @@
+{
+    "config": {
+      "title": "Electric Unicycle",
+      "step": {
+        "user": {
+          "title": "Electric Unicycle",
+          "description": "Set up EUC integration",
+          "data": {
+            "name": "Name of the integration",
+            "device_path": "device path"
+          }
+        }
+      },
+      "error": {
+        "name_exists": "Name already exists."
+      }
+    }
+  }
