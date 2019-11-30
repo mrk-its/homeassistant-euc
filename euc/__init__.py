@@ -22,6 +22,7 @@ async def async_setup_entry(hass, config_entry):
     # _LOGGER.info("async_setup_entry, %r", config_entry.as_dict())
     device_path = config_entry.data["device_path"]
     driver_name = config_entry.data["driver_name"]
+    device_name = config_entry.data[CONF_NAME]
     # _LOGGER.info("device_path: %s", device_path)
     system_bus = ravel.system_bus()
     if not system_bus.connection.loop:

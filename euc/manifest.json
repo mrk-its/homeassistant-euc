@@ -4,6 +4,6 @@
   "documentation": "https://www.home-assistant.io/components/hue",
   "dependencies": [],
   "codeowners": ["@mrk"],
-  "requirements": ["euc.kingsong>=0.3.0rc2"],
+  "requirements": ["euc.kingsong>=0.3.0rc3"],
   "config_flow": true
 }
